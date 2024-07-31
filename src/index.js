@@ -24,7 +24,7 @@ if (!process.env.JWT_SECRET) {
     );
     process.exit(1);
 }
-
+//Router//
 app.use("/api/auth", authRouter);
 app.use("/api/kelas", kelasRouter);
 app.use("/api/mata-pelajaran", mataPelajaranRouter);
